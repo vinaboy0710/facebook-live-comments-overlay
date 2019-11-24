@@ -31,7 +31,7 @@ export default {
       return this.$route.query.access_token
     },
 
-    limit () {
+    limit (10) {
       return this.$route.query.limit || 10
     },
 
