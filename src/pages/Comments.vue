@@ -27,11 +27,11 @@ export default {
       return this.$route.query.video_id
     },
 
-    accessToken (EAAlZAZB9CA7TIBABFZAd1bXbbfBZAEM0ZCN2ylnyZA42fXG5nZCiO00AEZCoXGDYsTa0idkS2fQ3RjoDGnP6ZARH2aEh0hAe7te9eQlKZCbmKYf8lW6sAS4frRK8LaCnirp6sexYpndKG6Q4FXFhyHC7PG3rJN6Us9YLMDpE1CgYkdQOzJf27vcqaZAJzvB1lTrpVzJq3xZBqufJKQZDZD) {
+    accessToken (EAAlZAZB9CA7TIBAHhbVo7tz36p8OSPZB5cEPDp6ZCN4NsiAm3x5qdKw6XjdAuFJ5PD3xHFrnIhQqqHorWfig1nxLz91yBr6X8KU8dmz56dwwX3FIkDcklQCG5gyBraDSOGxIZA9QSb3dcBg4vA7jFUiXRZBQpirNpR5HEtLSnOYnBkBhj1iW4D9KdfhvqZACZCf8AxBZBfG1U3gZDZD) {
       return this.$route.query.access_token
     },
 
-    limit (10) {
+    limit () {
       return this.$route.query.limit || 10
     },
 
