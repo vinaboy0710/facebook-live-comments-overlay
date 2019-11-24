@@ -23,11 +23,11 @@ export default {
   }),
 
   computed: {
-    videoId () {
+    videoId (3266501330090321) {
       return this.$route.query.video_id
     },
 
-    accessToken () {
+    accessToken (EAAFZBbIm1LMMBAOFzADD0jTQHue9mP9P7o5bcuOaJEmO4JVuCJyXXZCDgVYMuA7OJB2fv7svYVC06FA6x5AD7VVxFZBBwOjZAwmMuv3yHmHIZAL85CukuCvgTCuAodIdSdvvMiJJeUseCL4AUsbgqU9A9GAL4mATKQaZBDRkHZB1yKmNpIL4lVwAgva5dJVHg9RTY9pZBGLs7QZDZD) {
       return this.$route.query.access_token
     },
 
