@@ -42,7 +42,7 @@ export default {
         return null
       }
 
-      return `https://graph.facebook.com/v2.8/${this.from.id}/picture`
+      return `https://graph.facebook.com/v3.2/${this.from.id}/picture`
     }
   }
 }
